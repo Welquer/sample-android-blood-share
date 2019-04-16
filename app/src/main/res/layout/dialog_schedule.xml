@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Place where you're going share your blood"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/recipient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Who is the recipient?"
+        android:inputType="text"/>
+
+    <DatePicker
+        android:id="@+id/due"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="When are you going to share?"
+        android:inputType="text"/>
+
+</LinearLayout>
